@@ -1,0 +1,21 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.1",
+    "@types/lowdb": "^1.0.11"
+  },
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "lowdb": "^3.0.0"
+  }
+}
