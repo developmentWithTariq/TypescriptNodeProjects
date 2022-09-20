@@ -5,7 +5,7 @@ type ItemCounts = {
         incomplete: number
     }
 
-export class ItemCollection {
+export class ItemCollection  {
     private nextId: number = 1;
     protected itemMap = new Map<number, TodoItem>();
 
