@@ -8,7 +8,7 @@ let num2: number;
 let currentOperator: Operator;
 
 function isNumber(str: string): boolean {
-    const mayBeNum = parseInt(str);
+    const mayBeNum: number = parseInt(str);
     const isNum: boolean =!isNaN(mayBeNum);
     return isNum;
 }
