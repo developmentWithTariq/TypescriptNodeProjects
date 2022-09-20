@@ -1,0 +1,35 @@
+
+  
+// [
+  
+//     {
+//       "array" : ["Mumbai", "Hyderabad", "Guragon", "Bangalore"],
+//       "question" : "Which City is known as Electronic City of India? ",
+//       "answer" : "Bangalore"
+//     },
+//     {
+//       "array" : ["Kerala", "Madras", "Bangalore", "New Delhi"],
+//       "question" : "The Indian Institute of Science is located at ",
+//       "answer" : "Bangalor3"
+//     },
+//     {
+//       "array" : [Dugong, 'Blue whale', 'River Dolphin', 'Pygmy Killer Whale'],
+//       "question" : 'What is the name of India\'s National Aquactic Animal: ',
+//       "answer" : 'River Dolphin'
+//     },
+//     {
+//       "array" : ['New Delhi', 'Hyderabad', 'Amritsar', 'Mumbai'],
+//       "question" : 'The Centre for Cellular and Molecular Biology in India is situated at: ',
+//       "answer" : 'Hyderabad'
+//     },
+//     {
+//       "array" : ['Delhi', 'Dehradun', 'Lucknow', 'Gandhinagar'],
+//       "question" : 'National Institute of Aeronautical Engineering is located at ',
+//       "answer" : 'Delhi'
+//     },
+//     {
+//       "array" : ['T.N.Kaul', 'J.R.D. Tata', 'Nani Palkhivala', 'Khushwant Singh'],
+//       "question" : 'Who wrote the famous book - "We the people"? ',
+//       "answer" : 'Nani Palkhivala'
+//     },
+//   ];

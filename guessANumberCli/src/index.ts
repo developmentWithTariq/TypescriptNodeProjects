@@ -8,7 +8,7 @@ let remainingChances: number = numberOfChances;
 let randomNumer: number = Math.floor( Math.random()* 30 ) +1;
 
 function isNumber(str: string): boolean {
-    const mayBeNum = parseInt(str);
+    const mayBeNum: number = parseInt(str);
     const isNum: boolean =!isNaN(mayBeNum);
     return isNum;
 }
