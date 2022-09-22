@@ -1,4 +1,3 @@
-
 import * as inquirer from "inquirer";
 let amountToConvert;
 function isNumber(str) {
@@ -33,7 +32,6 @@ currenciesRates.set("PKR", { PKR: 1, INR: 0.27027027, USD: 0.004166667 }); //,PO
 currenciesRates.set("INR", { PKR: 3.7, INR: 1, USD: 0.008333333 }); //,POUND: 130,RIAL: 0.025641026})
 currenciesRates.set("USD", { PKR: 240, INR: 120, USD: 1 }); //,POUND: 1.03,RIAL: 3.5})
 // currenciesRates.set("POUND", { PKR: 0.27027027,INR : 1,USD: 260}) //,POUND: 270,RIAL: 69})
-// console.log(currenciesRates)
 function getRate(from, to, amount) {
     let rates = currenciesRates.get(from);
     let currencyRate;
@@ -68,22 +66,18 @@ function desireCurrency() {
         choices: Object.values(Currencies)
     })
         .then(answers => {
-        // console.log(answers)
         switch (answers["currencies"]) {
             case Currencies.PKRUPEE:
                 toCurrency = answers["currencies"];
-                // console.log(toCurrency)
                 result = getRate(fromCurrency, toCurrency, amountToConvert);
             case Currencies.INRUPEE:
                 toCurrency = answers["currencies"];
-                // console.log(toCurrency)
                 result = getRate(fromCurrency, toCurrency, amountToConvert);
             case Currencies.DOLLAR:
                 toCurrency = answers["currencies"];
-                // console.log(toCurrency)
                 result = getRate(fromCurrency, toCurrency, amountToConvert);
         }
-        console.log(`${amountToConvert} ${fromCurrency} is eqault ot ${result}${toCurrency} `);
+        console.log(`${amountToConvert} ${fromCurrency} is equal to ${result}${toCurrency} `);
     });
 }
 yourCurrency();
