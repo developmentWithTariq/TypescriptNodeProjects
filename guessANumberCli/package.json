@@ -1,5 +1,5 @@
 {
-  "name": "guessANumber",
+  "name": "guess-a-number",
   "version": "1.0.0",
   "description": "",
   "exports": "./index.js",
