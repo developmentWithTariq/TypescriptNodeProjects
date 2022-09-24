@@ -31,6 +31,6 @@ export class Customer {
         Age: ${this.Age}
         Gender: ${this.Gender}
         Mobile: ${this.MobileNumber}
-        Account Balance: ${this.BankAccount.AccountBalance}`
+        Account Balance: $${this.BankAccount.AccountBalance}`
     }
 }
