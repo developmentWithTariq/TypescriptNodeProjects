@@ -15,6 +15,7 @@ const CountDownTimer:NodeJS.Timer = setInterval(function():void {
     let seconds: number = Math.floor((distance % (1000 * 60)) / 1000);
 
     const displayCountDown:string = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    console.clear()
     console.log(displayCountDown)
 
     if (distance < 0) {
