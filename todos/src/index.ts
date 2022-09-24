@@ -7,7 +7,7 @@ let todos: TodoItem[] = [
     new TodoItem(1, "typescriptP1"), new TodoItem(2, "typescriptP3"),
     new TodoItem(3, "typescriptP2"), new TodoItem(4, "typeScriptP4", true)];
 
-let collection: ItemCollection = new ItemCollection("Adam", todos);
+let collection: ItemCollection = new ItemCollection("web3", todos);
 let showCompleted = true;
 
 console.clear();

@@ -5,13 +5,10 @@ let todos = [
     new TodoItem(1, "typescriptP1"), new TodoItem(2, "typescriptP3"),
     new TodoItem(3, "typescriptP2"), new TodoItem(4, "typeScriptP4", true)
 ];
-let collection = new ItemCollection("Adam", todos);
+let collection = new ItemCollection("web3", todos);
 let showCompleted = true;
 console.clear();
 console.log(`${collection.userName}'s Todo List`);
-//collection.addTodo(todoItem);
-// collection.getTodoItems(true).forEach(item => item.printDetails());
-// collection.removeComplete();
 console.log(`${collection.userName}'s Todo List `
     + `(${collection.getItemCounts().incomplete} items to do)`);
 collection.getTodoItems(showCompleted).forEach(item => item.printDetails());
