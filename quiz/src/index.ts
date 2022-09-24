@@ -55,7 +55,8 @@ function quiz(question: string, options: string[], actualAnswer: string): void{
       message: `${question}`,
       choices: options,})
       .then(answer =>{
-          console.log("\n")
+          console.clear();
+          console.log("\n");
           userAnswer = answer["userAnswer"]
           if( userAnswer.toLowerCase() === actualAnswer.toLowerCase() ){
             score = score+1;
@@ -84,7 +85,9 @@ function namePrompt (){
     console.log("-------------------------------------------")
     console.log(`\tWellcome to Quiz ${answer["name"]}`)
     console.log("------------------------------------------")
+
     quiz(mcqList[0].question,mcqList[0].array,mcqList[0].answer);
+
     })
 }
 namePrompt();
